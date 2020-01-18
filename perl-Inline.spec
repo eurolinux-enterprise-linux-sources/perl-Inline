@@ -1,6 +1,6 @@
 Name:           perl-Inline
 Version:        0.53
-Release:        3.2%{?dist}
+Release:        4%{?dist}
 Summary:        Write Perl subroutines in other programming languages
 Group:          Development/Libraries
 License:        (GPL+ or Artistic) and Artistic
@@ -89,6 +89,9 @@ make test
 %{_mandir}/man3/*.3*
 
 %changelog
+* Fri Dec 27 2013 Daniel Mach <dmach@redhat.com> - 0.53-4
+- Mass rebuild 2013-12-27
+
 * Wed Aug 07 2013 Petr Šabata <contyk@redhat.com> - 0.53-3.2
 - Fix the 'provides' filters
 - Better summary
